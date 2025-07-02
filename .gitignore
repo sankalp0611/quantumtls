@@ -1,0 +1,13 @@
+# Ignore private keys and certs
+*.key
+*.csr
+*.crt
+
+# Ignore backup directory
+backup/
+
+# Ignore temporary files
+*.swp
+
+liboqs/
+

@@ -1,0 +1,6 @@
+# Ignore private certs and backup
+*.key
+*.csr
+*.crt
+backup/
+
