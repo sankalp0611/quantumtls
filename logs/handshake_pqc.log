@@ -1,0 +1,423 @@
+CONNECTED(00000003)
+>>> TLS 1.0, RecordHeader [length 0005]
+    16 03 01 01 20
+>>> TLS 1.3, Handshake [length 0120], ClientHello
+    01 00 01 1c 03 03 9d df c7 85 a2 79 7b 23 a7 2c
+    98 1a 02 b5 58 04 d7 91 d5 83 15 77 a1 40 18 12
+    8d 7e e6 ef 1f 24 20 12 16 e1 66 65 40 91 32 41
+    28 fe df bf 92 28 79 20 e3 d3 0a f7 76 09 1b e1
+    21 fd 43 29 37 5c 3b 00 3a 13 02 c0 2c c0 30 00
+    9f cc a9 cc a8 cc aa c0 2b c0 2f 00 9e c0 24 c0
+    28 00 6b c0 23 c0 27 00 67 c0 0a c0 14 00 39 c0
+    09 c0 13 00 33 00 9d 00 9c 00 3d 00 3c 00 35 00
+    2f 00 ff 01 00 00 99 00 0b 00 04 03 00 01 02 00
+    0a 00 16 00 14 00 1d 00 17 00 1e 00 19 00 18 01
+    00 01 01 01 02 01 03 01 04 00 23 00 00 00 16 00
+    00 00 17 00 00 00 0d 00 2a 00 28 04 03 05 03 06
+    03 08 07 08 08 08 09 08 0a 08 0b 08 04 08 05 08
+    06 04 01 05 01 06 01 03 03 03 01 03 02 04 02 05
+    02 06 02 00 2b 00 09 08 03 04 03 03 03 02 03 01
+    00 2d 00 02 01 01 00 33 00 26 00 24 00 1d 00 20
+    ea a8 43 e3 f4 41 5b 23 45 a0 2a da 5d 77 aa f1
+    fb c5 0d 2d 25 55 e5 0a 66 ec 2a f4 43 68 c4 3f
+write to 0x60ea2c904d20 [0x60ea2c94b740] (293 bytes => 293 (0x125))
+0000 - 16 03 01 01 20 01 00 01-1c 03 03 9d df c7 85 a2   .... ...........
+0010 - 79 7b 23 a7 2c 98 1a 02-b5 58 04 d7 91 d5 83 15   y{#.,....X......
+0020 - 77 a1 40 18 12 8d 7e e6-ef 1f 24 20 12 16 e1 66   w.@...~...$ ...f
+0030 - 65 40 91 32 41 28 fe df-bf 92 28 79 20 e3 d3 0a   e@.2A(....(y ...
+0040 - f7 76 09 1b e1 21 fd 43-29 37 5c 3b 00 3a 13 02   .v...!.C)7\;.:..
+0050 - c0 2c c0 30 00 9f cc a9-cc a8 cc aa c0 2b c0 2f   .,.0.........+./
+0060 - 00 9e c0 24 c0 28 00 6b-c0 23 c0 27 00 67 c0 0a   ...$.(.k.#.'.g..
+0070 - c0 14 00 39 c0 09 c0 13-00 33 00 9d 00 9c 00 3d   ...9.....3.....=
+0080 - 00 3c 00 35 00 2f 00 ff-01 00 00 99 00 0b 00 04   .<.5./..........
+0090 - 03 00 01 02 00 0a 00 16-00 14 00 1d 00 17 00 1e   ................
+00a0 - 00 19 00 18 01 00 01 01-01 02 01 03 01 04 00 23   ...............#
+00b0 - 00 00 00 16 00 00 00 17-00 00 00 0d 00 2a 00 28   .............*.(
+00c0 - 04 03 05 03 06 03 08 07-08 08 08 09 08 0a 08 0b   ................
+00d0 - 08 04 08 05 08 06 04 01-05 01 06 01 03 03 03 01   ................
+00e0 - 03 02 04 02 05 02 06 02-00 2b 00 09 08 03 04 03   .........+......
+00f0 - 03 03 02 03 01 00 2d 00-02 01 01 00 33 00 26 00   ......-.....3.&.
+0100 - 24 00 1d 00 20 ea a8 43-e3 f4 41 5b 23 45 a0 2a   $... ..C..A[#E.*
+0110 - da 5d 77 aa f1 fb c5 0d-2d 25 55 e5 0a 66 ec 2a   .]w.....-%U..f.*
+0120 - f4 43 68 c4 3f                                    .Ch.?
+read from 0x60ea2c904d20 [0x60ea2c942513] (5 bytes => 5 (0x5))
+0000 - 16 03 03 00 7a                                    ....z
+<<< TLS 1.2, RecordHeader [length 0005]
+    16 03 03 00 7a
+read from 0x60ea2c904d20 [0x60ea2c942518] (122 bytes => 122 (0x7A))
+0000 - 02 00 00 76 03 03 ff bd-91 c6 38 59 fd c0 cf f8   ...v......8Y....
+0010 - 62 92 19 fa 73 77 e4 16-60 80 07 23 64 f2 40 b4   b...sw..`..#d.@.
+0020 - a0 66 81 7a a1 15 20 12-16 e1 66 65 40 91 32 41   .f.z.. ...fe@.2A
+0030 - 28 fe df bf 92 28 79 20-e3 d3 0a f7 76 09 1b e1   (....(y ....v...
+0040 - 21 fd 43 29 37 5c 3b 13-02 00 00 2e 00 2b 00 02   !.C)7\;......+..
+0050 - 03 04 00 33 00 24 00 1d-00 20 6e 9b fd 9b 25 f0   ...3.$... n...%.
+0060 - 41 f6 53 8d d8 73 59 c2-e9 89 65 c2 99 0d a5 90   A.S..sY...e.....
+0070 - ec 63 a5 ce cf ff cf 63-50 63                     .c.....cPc
+<<< TLS 1.3, Handshake [length 007a], ServerHello
+    02 00 00 76 03 03 ff bd 91 c6 38 59 fd c0 cf f8
+    62 92 19 fa 73 77 e4 16 60 80 07 23 64 f2 40 b4
+    a0 66 81 7a a1 15 20 12 16 e1 66 65 40 91 32 41
+    28 fe df bf 92 28 79 20 e3 d3 0a f7 76 09 1b e1
+    21 fd 43 29 37 5c 3b 13 02 00 00 2e 00 2b 00 02
+    03 04 00 33 00 24 00 1d 00 20 6e 9b fd 9b 25 f0
+    41 f6 53 8d d8 73 59 c2 e9 89 65 c2 99 0d a5 90
+    ec 63 a5 ce cf ff cf 63 50 63
+read from 0x60ea2c904d20 [0x60ea2c942513] (5 bytes => 5 (0x5))
+0000 - 14 03 03 00 01                                    .....
+<<< TLS 1.2, RecordHeader [length 0005]
+    14 03 03 00 01
+read from 0x60ea2c904d20 [0x60ea2c942518] (1 bytes => 1 (0x1))
+0000 - 01                                                .
+read from 0x60ea2c904d20 [0x60ea2c942513] (5 bytes => 5 (0x5))
+0000 - 17 03 03 00 17                                    .....
+<<< TLS 1.2, RecordHeader [length 0005]
+    17 03 03 00 17
+read from 0x60ea2c904d20 [0x60ea2c942518] (23 bytes => 23 (0x17))
+0000 - ef 12 dc a4 ee b0 87 ec-c1 8c ec 29 80 71 79 b3   ...........).qy.
+0010 - 10 12 36 08 03 8d 73                              ..6...s
+<<< TLS 1.3, InnerContent [length 0001]
+    16
+<<< TLS 1.3, Handshake [length 0006], EncryptedExtensions
+    08 00 00 02 00 00
+read from 0x60ea2c904d20 [0x60ea2c942513] (5 bytes => 5 (0x5))
+0000 - 17 03 03 03 0f                                    .....
+<<< TLS 1.2, RecordHeader [length 0005]
+    17 03 03 03 0f
+read from 0x60ea2c904d20 [0x60ea2c942518] (783 bytes => 783 (0x30F))
+0000 - 73 5e 85 e2 04 9e 61 b0-81 93 90 d7 e7 1e 49 74   s^....a.......It
+0010 - 82 ce 2c cb 66 cd 68 1b-4e 0f 52 56 22 46 85 72   ..,.f.h.N.RV"F.r
+0020 - fa 5f 8a 54 64 b7 b2 b0-f6 81 97 ca 44 dd 13 84   ._.Td.......D...
+0030 - b1 b1 a2 f4 44 f3 bb 8b-92 74 8e 92 32 d2 28 47   ....D....t..2.(G
+0040 - 82 9f fd 73 28 a9 f2 67-ed 50 da 1e 66 5b 68 60   ...s(..g.P..f[h`
+0050 - 23 13 9d 41 32 b2 e6 52-0f 23 96 17 2c 60 72 1a   #..A2..R.#..,`r.
+0060 - d0 1e bd 57 cb 4b 49 a8-b0 29 0e 92 79 f5 a2 ff   ...W.KI..)..y...
+0070 - bc 94 b6 ce dd 8b 56 6d-8f ff 08 30 30 e3 3f 2b   ......Vm...00.?+
+0080 - ce 03 cf 83 ab 6f 17 9b-7f 94 c5 fd c1 3d a7 4d   .....o.......=.M
+0090 - 66 9d df c8 f4 06 23 be-22 41 6a cc 88 ef d4 37   f.....#."Aj....7
+00a0 - 84 f6 5e 9d b5 cd 7a a4-bd 39 55 e5 0b 3d 26 67   ..^...z..9U..=&g
+00b0 - 0f cd e3 c2 ec fe 33 3b-4e 19 09 0e d3 da de c4   ......3;N.......
+00c0 - 0c 7d c7 24 6d 66 95 fd-b8 16 7c ea 9f a0 11 b5   .}.$mf....|.....
+00d0 - 76 4b 54 61 12 72 09 a5-13 35 f6 f7 d6 3a 7f 5c   vKTa.r...5...:.\
+00e0 - 1a 5b 74 48 0f b6 6f e8-49 2d 6a 60 f6 71 7a 43   .[tH..o.I-j`.qzC
+00f0 - f3 57 48 bc b4 47 df 26-20 be 68 37 88 cb 12 f8   .WH..G.& .h7....
+0100 - e0 07 57 5d f9 58 0a bd-7a 76 d6 ec fa 6f 47 86   ..W].X..zv...oG.
+0110 - f2 62 df d3 fa 86 58 cc-2f 2f 44 76 d3 89 be 74   .b....X.//Dv...t
+0120 - 73 8c 6b 6f c6 83 7f 67-1e 0a 1f a1 f4 e7 9e 70   s.ko...g.......p
+0130 - 18 ce 7a 27 f5 01 ae 93-85 15 17 68 1f 7c be f9   ..z'.......h.|..
+0140 - 01 bc e7 94 9e 51 5c 7e-31 98 c2 fd c1 d9 9a bc   .....Q\~1.......
+0150 - 27 d3 e5 f4 ae ae 5f 11-b1 5b 17 13 2e 30 4a d9   '....._..[...0J.
+0160 - 92 dc 14 ec b9 02 d4 30-c3 bb 2f 93 81 f9 4e f5   .......0../...N.
+0170 - 77 26 92 70 7f 2d 1e 5c-17 06 69 17 e1 a8 0f fc   w&.p.-.\..i.....
+0180 - 8c b3 20 24 36 1c 0f ec-43 29 18 c7 01 e9 bb cd   .. $6...C)......
+0190 - 83 ee a3 13 67 51 85 b2-85 b9 be f2 17 ae 1b 97   ....gQ..........
+01a0 - 3c 5e 65 75 f0 b0 43 bf-ea e9 cd 0e 45 63 f5 7a   <^eu..C.....Ec.z
+01b0 - 27 d0 b6 8f 63 32 5a 10-8f 82 65 13 9e 93 83 dc   '...c2Z...e.....
+01c0 - 4f af 75 ef cc ab 4a b9-f1 67 5f a7 e9 60 a4 73   O.u...J..g_..`.s
+01d0 - 98 e6 ee 8a d4 d0 c8 c4-25 43 c3 cd 90 ef 73 3e   ........%C....s>
+01e0 - 42 d9 d8 5b 7e 7b 70 0b-b2 b7 b2 22 94 bb fe 76   B..[~{p...."...v
+01f0 - 0c 1d d8 e2 ca 02 1a 3f-71 a7 7b 78 62 91 52 15   .......?q.{xb.R.
+0200 - 5f 20 f8 cb 67 f8 74 40-f7 57 d1 da fe e4 ad cc   _ ..g.t@.W......
+0210 - 02 09 6e e5 d8 00 36 a3-ed b4 b2 23 b1 4b 70 1c   ..n...6....#.Kp.
+0220 - c6 3e 54 62 f3 01 03 8b-73 28 1e 12 03 d7 2a 9a   .>Tb....s(....*.
+0230 - a9 a3 c9 b0 4a fa d4 b3-5b bb 70 df 8f 6d 2c 66   ....J...[.p..m,f
+0240 - f6 d2 f6 30 38 dc f5 2f-c6 7f 09 32 58 18 ab 74   ...08../...2X..t
+0250 - 80 e5 18 43 f1 a5 91 61-7b e8 ae 73 a8 23 15 0a   ...C...a{..s.#..
+0260 - 7d 0e a4 8a cd 12 dd 97-c2 2c de cc c2 5b ba d9   }........,...[..
+0270 - 88 a4 ef e1 42 96 56 ec-44 45 a0 58 cc 3e 44 b0   ....B.V.DE.X.>D.
+0280 - a5 fc b7 28 ff 50 ec cd-65 a7 48 52 82 b4 60 a4   ...(.P..e.HR..`.
+0290 - 7e d5 5d bf c7 69 78 ee-1f 56 19 81 a6 7a 74 db   ~.]..ix..V...zt.
+02a0 - 9f e6 71 d1 7f 11 40 f1-da 77 63 28 53 32 b6 6b   ..q...@..wc(S2.k
+02b0 - 2c e8 1e e8 a6 85 b4 b1-f0 f3 37 f1 a4 78 77 7f   ,.........7..xw.
+02c0 - 1b d9 49 8c 69 ff 07 54-4c ea 54 49 5a b9 45 59   ..I.i..TL.TIZ.EY
+02d0 - 6e 28 03 ff 5d 59 3a dd-f0 37 5f 0b 9f be bd 94   n(..]Y:..7_.....
+02e0 - 6c 86 a7 03 58 1b c0 5d-cc c3 f7 c1 c8 20 4a fe   l...X..]..... J.
+02f0 - 95 94 55 2f cf 2a 7b 55-0f 56 28 b6 a5 76 3c f8   ..U/.*{U.V(..v<.
+0300 - 69 90 59 76 4a f1 68 62-47 9c b9 e8 34 c5 60      i.YvJ.hbG...4.`
+<<< TLS 1.3, InnerContent [length 0001]
+    16
+<<< TLS 1.3, Handshake [length 02fe], Certificate
+    0b 00 02 fa 00 00 02 f6 00 02 f1 30 82 02 ed 30
+    82 01 d5 a0 03 02 01 02 02 14 6f 71 f1 fa eb b7
+    b7 2a 7e 06 c9 6f 28 6c 97 c5 2d 5e 0e 32 30 0d
+    06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 14 31
+    12 30 10 06 03 55 04 03 0c 09 6c 6f 63 61 6c 68
+    6f 73 74 30 1e 17 0d 32 35 30 37 30 36 31 32 35
+    39 34 36 5a 17 0d 32 36 30 37 30 36 31 32 35 39
+    34 36 5a 30 14 31 12 30 10 06 03 55 04 03 0c 09
+    6c 6f 63 61 6c 68 6f 73 74 30 82 01 22 30 0d 06
+    09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f
+    00 30 82 01 0a 02 82 01 01 00 a5 8b 78 37 18 53
+    a0 a2 de 59 18 75 cf 35 67 f0 1a 5a 38 26 3a e7
+    62 e8 70 c8 29 4c f8 62 b2 7b 20 8a 9e 0d 3e bf
+    cc 08 cb 99 b7 2f d1 3f 96 41 67 56 09 ca d5 f1
+    4e 8a b0 2a 73 eb a5 88 cd 13 81 59 cc 89 ba b3
+    68 9c b4 6e ec 9f a0 45 ec 80 1a de 28 7c ce 27
+    e0 3d d3 be e2 96 a0 62 71 b7 1c fd bf 11 38 b5
+    d1 7a 4a 9b 72 7b 35 4c 07 3d 1b b7 4b 34 a6 36
+    7c a3 0c e3 80 85 58 38 aa 33 79 7e 97 de 0c 4f
+    b8 3c 46 d9 19 ef d1 33 b6 87 f9 e4 27 62 1c ca
+    10 1f 4f e7 70 54 20 5c ec 6e 76 35 26 7d 6f 6a
+    92 f1 06 bc 6e 94 f9 56 4b 99 22 08 99 a5 a6 54
+    9b 73 c8 4c 93 01 42 6c 3a 97 d2 57 72 59 bf f4
+    e0 06 3a 33 a6 6b 7e b6 ea 0a 9f 71 7c 93 cd f8
+    8d 05 12 02 a0 46 2d 73 a8 a8 11 22 3f cb 23 b5
+    4a f9 c6 5d 15 30 26 dc 8e ee aa da 86 6d d6 1b
+    6c cb 37 9d a3 fe 45 55 78 a3 02 03 01 00 01 a3
+    37 30 35 30 14 06 03 55 1d 11 04 0d 30 0b 82 09
+    6c 6f 63 61 6c 68 6f 73 74 30 1d 06 03 55 1d 0e
+    04 16 04 14 48 77 14 5e 81 4b f9 c3 3d 96 07 cd
+    cb 1c 20 29 3e 3f 46 4d 30 0d 06 09 2a 86 48 86
+    f7 0d 01 01 0b 05 00 03 82 01 01 00 0e 24 db 6c
+    08 bd 8f 40 61 7e 71 72 3b f7 47 9d 32 67 33 9d
+    54 a6 ae 29 f9 cf 87 c7 fe 32 42 58 5f 54 9b 2d
+    3a 79 60 95 81 72 4e 1a d9 6b 69 c5 d1 bb ee 97
+    0c 9e 74 a2 94 e8 e2 90 e8 1e 79 63 e3 e9 03 a3
+    9c ff ef 8f 18 5f 10 84 7a 3d 74 a4 d0 4e 25 54
+    87 e1 20 4b 8d b6 77 3c 4a 99 19 bd e7 e2 63 40
+    19 90 56 f4 44 f7 51 83 d6 35 64 f4 d1 7a 40 36
+    8d 57 66 07 ea 02 bc e5 a9 dc 16 b7 0f da 14 3e
+    5d 69 8e a8 32 ba e0 88 f2 1a 71 8b 62 da c1 4d
+    5c d9 6c 48 1c 35 69 c2 51 8e 7c fe b0 8a ea 7f
+    4b 89 9d 5b d5 a0 97 37 3c 9c d7 bb 9e c0 7a 1b
+    a4 90 9c a7 77 9f 94 82 22 47 9c 81 c7 31 f1 ff
+    84 0a 61 2d 4a 94 c5 fa ab 66 80 62 3b b4 f2 ee
+    02 0c 14 b1 b6 56 86 23 8c e8 c2 21 61 52 7a e7
+    9a f2 9c db 46 15 21 c5 45 59 40 df 51 18 d2 79
+    b6 34 47 72 4a ea ac f9 9d 03 ee 8f 00 00
+read from 0x60ea2c904d20 [0x60ea2c942513] (5 bytes => 5 (0x5))
+0000 - 17 03 03 01 19                                    .....
+<<< TLS 1.2, RecordHeader [length 0005]
+    17 03 03 01 19
+read from 0x60ea2c904d20 [0x60ea2c942518] (281 bytes => 281 (0x119))
+0000 - 11 25 be 63 26 f1 6d 58-44 d2 f8 33 ca e1 db 19   .%.c&.mXD..3....
+0010 - 0b 8e 58 fd 74 c4 37 77-d1 21 46 3b ae 34 af 86   ..X.t.7w.!F;.4..
+0020 - 62 69 6c 11 bc d7 ab 97-18 f7 c2 b3 a1 3d f4 17   bil..........=..
+0030 - 3e ff e1 fe b5 d6 f6 4b-90 09 31 2a cc dc a7 7a   >......K..1*...z
+0040 - a0 8f 3c f0 30 f4 6d 33-9f 5c 73 da 34 c4 02 ea   ..<.0.m3.\s.4...
+0050 - f1 db 24 5a 3b 36 ef 80-87 bb c1 3b bf ed 4a 5e   ..$Z;6.....;..J^
+0060 - 61 c7 6d 18 0b 8a a0 97-e3 7c ac cc c7 47 ef 92   a.m......|...G..
+0070 - 6c 0a 2f 49 8c c6 50 4c-3c 92 12 97 f9 a0 28 78   l./I..PL<.....(x
+0080 - 0e c7 59 fb 3a c0 95 68-d1 06 96 b5 13 0c bc fb   ..Y.:..h........
+0090 - 27 45 2b 9c b0 77 0f 88-3c f5 9a a7 15 b1 75 86   'E+..w..<.....u.
+00a0 - 28 c0 14 02 a3 bf fe 42-fe 8f 4e 38 63 7e de 4c   (......B..N8c~.L
+00b0 - cc 86 c9 3b 50 60 b2 2a-3c 4a fb ba be 0e c6 6d   ...;P`.*<J.....m
+00c0 - 66 85 d5 a1 a4 0d 8f 65-5a 50 91 c1 fe b7 6c 39   f......eZP....l9
+00d0 - ba b3 3c 79 d7 d5 3f bc-5d 49 53 51 ce ce 11 bb   ..<y..?.]ISQ....
+00e0 - 84 61 a2 46 4c 1f 0e 92-24 84 f1 c5 19 80 4b 5f   .a.FL...$.....K_
+00f0 - e6 5e b9 2b c2 6c a8 21-5e 69 ce 85 80 51 6b 80   .^.+.l.!^i...Qk.
+0100 - 78 56 fe 25 7f b4 e1 2b-06 2a 69 ae bd ce 44 55   xV.%...+.*i...DU
+0110 - 57 7c 34 b0 30 5a 4d ce-dd                        W|4.0ZM..
+<<< TLS 1.3, InnerContent [length 0001]
+    16
+<<< TLS 1.3, Handshake [length 0108], CertificateVerify
+    0f 00 01 04 08 04 01 00 9d 43 40 31 eb 6f bd e8
+    86 42 b6 3a 98 b0 f2 3a de e3 b1 7b 9c 1b 0c 0d
+    e1 a8 5c 23 e2 ff d9 cd 64 35 b8 be d4 94 44 4d
+    1c 02 94 ad e8 0b 86 d6 3a 43 01 91 69 de 9b 2b
+    4b e3 86 d1 32 05 61 74 fa 7b 5c f3 dc bb 49 d6
+    39 3a 13 8f e2 ed d9 95 8f fa 64 ee fe c5 4d ea
+    fc ab 35 77 85 89 52 12 c5 15 37 d9 30 ce 0e 0b
+    36 44 1f cd 18 9c ab b6 af bd f9 19 07 55 18 bb
+    c4 82 40 57 34 88 db f1 37 7e 98 ea 41 0a 63 c2
+    eb 86 0c b4 25 1b af 2f 0b fe 1e 87 ee 71 95 1a
+    81 a6 e1 9a 36 29 63 10 6a 1b 15 33 6c f5 9f 4d
+    3f cd 7f 39 8a 43 4b 41 e4 bc 64 cb e2 4a c9 9d
+    f2 81 c7 49 59 cc d2 6f 39 4e 8c 4e e7 66 a3 8a
+    ec 8c 74 04 d6 3c 48 b0 c9 41 a2 d3 71 72 1a 37
+    86 97 ea a7 e8 38 5e bb 87 b4 aa cf f5 d5 de da
+    f9 c7 12 bf 5f d9 cb 85 fb e1 57 35 d5 f2 c6 38
+    ed a3 82 94 b3 71 e7 55
+read from 0x60ea2c904d20 [0x60ea2c942513] (5 bytes => 5 (0x5))
+0000 - 17 03 03 00 45                                    ....E
+<<< TLS 1.2, RecordHeader [length 0005]
+    17 03 03 00 45
+read from 0x60ea2c904d20 [0x60ea2c942518] (69 bytes => 69 (0x45))
+0000 - ed b4 55 08 dd b4 2b 5e-be 3c 80 5c 11 db c5 5b   ..U...+^.<.\...[
+0010 - a6 59 fe d4 a6 97 bc 36-a0 b4 ee 8d a0 9b 76 f7   .Y.....6......v.
+0020 - 98 c5 6c 6e 5b cb b7 70-19 89 67 5e 6d f1 f1 45   ..ln[..p..g^m..E
+0030 - 40 1c d6 9a fc a5 90 c4-da 8d 17 6a 43 ab 73 8c   @..........jC.s.
+0040 - a4 fc 42 ce 8a                                    ..B..
+<<< TLS 1.3, InnerContent [length 0001]
+    16
+<<< TLS 1.3, Handshake [length 0034], Finished
+    14 00 00 30 33 1d 0b 29 77 05 96 bc 16 00 48 fb
+    f9 90 ba 4d 60 39 05 b8 e2 c3 e1 69 69 a8 b4 e9
+    cb 23 7b 5b fe 74 9c 50 61 89 d0 82 2c 28 e2 4f
+    f0 9d 36 4c
+>>> TLS 1.2, RecordHeader [length 0005]
+    14 03 03 00 01
+>>> TLS 1.3, ChangeCipherSpec [length 0001]
+    01
+>>> TLS 1.2, RecordHeader [length 0005]
+    17 03 03 00 45
+>>> TLS 1.2, InnerContent [length 0001]
+    16
+>>> TLS 1.3, Handshake [length 0034], Finished
+    14 00 00 30 6d cf ad 06 15 d1 34 45 0f c4 f2 3c
+    c3 28 e0 7e 56 29 29 d5 e4 6b ce d1 49 dc e4 4d
+    55 82 bd 6a a7 3b 0a 1a 80 7e c3 3f d9 83 e4 12
+    d7 f6 cb 3a
+write to 0x60ea2c904d20 [0x60ea2c94b740] (80 bytes => 80 (0x50))
+0000 - 14 03 03 00 01 01 17 03-03 00 45 62 9e 0c 22 d9   ..........Eb..".
+0010 - 9a ba ab 87 c8 11 24 00-b6 ab e5 24 1b c8 0c f6   ......$....$....
+0020 - a0 34 9b 56 57 32 d3 ee-c4 af 63 08 d4 94 50 92   .4.VW2....c...P.
+0030 - 07 bb fe bc 60 2e 3a 03-e2 07 b8 6e 0f 97 78 92   ....`.:....n..x.
+0040 - 06 c6 a6 bb 7d 33 34 1c-d1 7a ca 3d 5c 78 75 56   ....}34..z.=\xuV
+---
+Certificate chain
+ 0 s:CN = localhost
+   i:CN = localhost
+   a:PKEY: rsaEncryption, 2048 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Jul  6 12:59:46 2025 GMT; NotAfter: Jul  6 12:59:46 2026 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIC7TCCAdWgAwIBAgIUb3Hx+uu3typ+BslvKGyXxS1eDjIwDQYJKoZIhvcNAQEL
+BQAwFDESMBAGA1UEAwwJbG9jYWxob3N0MB4XDTI1MDcwNjEyNTk0NloXDTI2MDcw
+NjEyNTk0NlowFDESMBAGA1UEAwwJbG9jYWxob3N0MIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEApYt4NxhToKLeWRh1zzVn8BpaOCY652LocMgpTPhisnsg
+ip4NPr/MCMuZty/RP5ZBZ1YJytXxToqwKnPrpYjNE4FZzIm6s2ictG7sn6BF7IAa
+3ih8zifgPdO+4pagYnG3HP2/ETi10XpKm3J7NUwHPRu3SzSmNnyjDOOAhVg4qjN5
+fpfeDE+4PEbZGe/RM7aH+eQnYhzKEB9P53BUIFzsbnY1Jn1vapLxBrxulPlWS5ki
+CJmlplSbc8hMkwFCbDqX0ldyWb/04AY6M6ZrfrbqCp9xfJPN+I0FEgKgRi1zqKgR
+Ij/LI7VK+cZdFTAm3I7uqtqGbdYbbMs3naP+RVV4owIDAQABozcwNTAUBgNVHREE
+DTALgglsb2NhbGhvc3QwHQYDVR0OBBYEFEh3FF6BS/nDPZYHzcscICk+P0ZNMA0G
+CSqGSIb3DQEBCwUAA4IBAQAOJNtsCL2PQGF+cXI790edMmcznVSmrin5z4fH/jJC
+WF9Umy06eWCVgXJOGtlracXRu+6XDJ50opTo4pDoHnlj4+kDo5z/748YXxCEej10
+pNBOJVSH4SBLjbZ3PEqZGb3n4mNAGZBW9ET3UYPWNWT00XpANo1XZgfqArzlqdwW
+tw/aFD5daY6oMrrgiPIacYti2sFNXNlsSBw1acJRjnz+sIrqf0uJnVvVoJc3PJzX
+u57AehukkJynd5+UgiJHnIHHMfH/hAphLUqUxfqrZoBiO7Ty7gIMFLG2VoYjjOjC
+IWFSeuea8pzbRhUhxUVZQN9RGNJ5tjRHckrqrPmdA+6P
+-----END CERTIFICATE-----
+subject=CN = localhost
+issuer=CN = localhost
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 1309 bytes and written 373 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---
+read from 0x60ea2c904d20 [0x60ea2c942513] (5 bytes => 5 (0x5))
+0000 - 17 03 03 00 fa                                    .....
+<<< TLS 1.2, RecordHeader [length 0005]
+    17 03 03 00 fa
+read from 0x60ea2c904d20 [0x60ea2c942518] (250 bytes => 250 (0xFA))
+0000 - 16 59 03 c1 2b d6 32 ce-ae 92 a5 be a8 e0 11 6c   .Y..+.2........l
+0010 - b5 47 cc 07 cc 16 81 c6-b3 02 3d 3f bd 3d c3 68   .G........=?.=.h
+0020 - 23 12 60 51 c4 fa b2 53-6d ff 07 99 87 6c 00 60   #.`Q...Sm....l.`
+0030 - fd e6 92 69 96 a7 94 5b-d6 0d 7b 24 1b b0 ba 23   ...i...[..{$...#
+0040 - f0 70 5a 3a 9e 0a 81 83-fd 0b e0 1c 76 80 93 96   .pZ:........v...
+0050 - d2 0f 92 17 c0 78 df b8-ef b1 e7 5a f3 e8 54 2f   .....x.....Z..T/
+0060 - da 71 8e dc e5 74 e5 62-6d f3 53 75 e0 9b 19 8c   .q...t.bm.Su....
+0070 - 11 04 9f e3 ca 87 e4 64-e6 97 a1 41 fa 12 f9 56   .......d...A...V
+0080 - 32 76 f5 22 5e bd 5b f0-00 af 80 17 64 08 df 91   2v."^.[.....d...
+0090 - 59 05 70 b4 73 10 46 1e-e5 7c f6 ab ad f1 6f 44   Y.p.s.F..|....oD
+00a0 - 92 f6 1a f8 11 9f 45 9d-f0 cb 74 70 0a 43 9a 33   ......E...tp.C.3
+00b0 - 17 ec 92 ec fe 2a f1 73-97 1a 44 b9 0f b9 3a 1c   .....*.s..D...:.
+00c0 - 61 69 e1 c1 3a 8d 26 5d-42 c7 cf bb 74 5e 7c 17   ai..:.&]B...t^|.
+00d0 - c2 14 85 c5 b9 b7 a1 22-4f 68 08 d2 ad 1e 85 84   ......."Oh......
+00e0 - 6f 3c 4a 1e 3e e4 26 67-4a 72 5d 48 0a 34 ae a6   o<J.>.&gJr]H.4..
+00f0 - a8 22 87 66 13 05 a5 96-bd 5f                     .".f....._
+<<< TLS 1.3, InnerContent [length 0001]
+    16
+<<< TLS 1.3, Handshake [length 00e9], NewSessionTicket
+    04 00 00 e5 00 00 1c 20 11 65 4d f3 08 00 00 00
+    00 00 00 00 00 00 d0 f2 b4 c4 b1 b8 ff c6 76 b6
+    5b be 1a e6 c8 48 6d 72 cb 5d ee 58 06 11 10 be
+    27 91 f0 c5 5c 05 1d 0e 2f 04 71 20 ed 56 3f 9d
+    4e dc 9d 86 02 fd 4e f1 7e 3a 03 8f f6 52 50 0f
+    30 0e 71 5f e8 1c b7 b7 94 7e 37 f6 23 16 4c f5
+    77 21 12 4f 27 b1 b8 ab 1b b1 28 2e 23 43 4d 0b
+    0c 3e 56 fb d8 d4 9b 91 7a 6c 82 43 81 00 fe bb
+    98 c0 60 d3 46 2b dd e1 fc 2f 36 f0 85 55 b5 8e
+    1b b2 ae 5d 7a 42 27 9d 3d a9 35 0b c1 29 0d 67
+    46 6a 23 98 72 8c 11 23 46 df 03 df 8f 5d 35 b4
+    6d 9a fb 65 3b 73 72 11 57 21 97 6b e6 0b c7 db
+    ec e3 c8 c1 51 14 03 f3 49 fd d8 10 37 f7 07 aa
+    54 97 cb 5b 35 0c 89 85 ce 07 a5 7a 1f ec 7d 56
+    ec 9f fa 3f 9c 06 c1 00 00
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 793F8CC9499AA2E1E1A77EDFA442281A09C9D6165F23E084929D85568ECBBAFE
+    Session-ID-ctx: 
+    Resumption PSK: 0D082A93AADE42B69922334440E3A84CB6BE71C620BB93D5E2A3B46875203C9110CEBFA44E06F7E543CC9C591360FFBE
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - f2 b4 c4 b1 b8 ff c6 76-b6 5b be 1a e6 c8 48 6d   .......v.[....Hm
+    0010 - 72 cb 5d ee 58 06 11 10-be 27 91 f0 c5 5c 05 1d   r.].X....'...\..
+    0020 - 0e 2f 04 71 20 ed 56 3f-9d 4e dc 9d 86 02 fd 4e   ./.q .V?.N.....N
+    0030 - f1 7e 3a 03 8f f6 52 50-0f 30 0e 71 5f e8 1c b7   .~:...RP.0.q_...
+    0040 - b7 94 7e 37 f6 23 16 4c-f5 77 21 12 4f 27 b1 b8   ..~7.#.L.w!.O'..
+    0050 - ab 1b b1 28 2e 23 43 4d-0b 0c 3e 56 fb d8 d4 9b   ...(.#CM..>V....
+    0060 - 91 7a 6c 82 43 81 00 fe-bb 98 c0 60 d3 46 2b dd   .zl.C......`.F+.
+    0070 - e1 fc 2f 36 f0 85 55 b5-8e 1b b2 ae 5d 7a 42 27   ../6..U.....]zB'
+    0080 - 9d 3d a9 35 0b c1 29 0d-67 46 6a 23 98 72 8c 11   .=.5..).gFj#.r..
+    0090 - 23 46 df 03 df 8f 5d 35-b4 6d 9a fb 65 3b 73 72   #F....]5.m..e;sr
+    00a0 - 11 57 21 97 6b e6 0b c7-db ec e3 c8 c1 51 14 03   .W!.k........Q..
+    00b0 - f3 49 fd d8 10 37 f7 07-aa 54 97 cb 5b 35 0c 89   .I...7...T..[5..
+    00c0 - 85 ce 07 a5 7a 1f ec 7d-56 ec 9f fa 3f 9c 06 c1   ....z..}V...?...
+
+    Start Time: 1751889621
+    Timeout   : 7200 (sec)
+    Verify return code: 18 (self-signed certificate)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+read from 0x60ea2c904d20 [0x60ea2c942513] (5 bytes => 5 (0x5))
+0000 - 17 03 03 00 fa                                    .....
+<<< TLS 1.2, RecordHeader [length 0005]
+    17 03 03 00 fa
+read from 0x60ea2c904d20 [0x60ea2c942518] (250 bytes => 250 (0xFA))
+0000 - 50 db 29 4e 65 50 e9 93-1d 92 65 a1 f0 73 00 6a   P.)NeP....e..s.j
+0010 - c3 33 ea 3c 9c dd f5 69-b0 d0 5e 90 35 08 23 ac   .3.<...i..^.5.#.
+0020 - d8 ef eb e6 68 de 99 5d-77 ab 48 33 d8 76 86 df   ....h..]w.H3.v..
+0030 - 43 cb 76 27 51 76 a1 c7-32 2e ca 75 bd 86 79 24   C.v'Qv..2..u..y$
+0040 - 72 78 31 bf 45 40 a3 55-af 47 61 3a 94 8b 99 04   rx1.E@.U.Ga:....
+0050 - 6b 9b 86 ec 82 73 b7 c1-a8 12 72 fc 97 74 ff 5b   k....s....r..t.[
+0060 - 86 17 4d be 61 70 5e ab-31 c2 2d 38 22 14 ab 99   ..M.ap^.1.-8"...
+0070 - ad fb 80 df 02 2a d4 a2-39 f3 f6 50 f9 b2 f5 75   .....*..9..P...u
+0080 - 3e a5 3b 75 2d f0 04 ae-00 9f ee 62 b5 02 73 f3   >.;u-......b..s.
+0090 - e7 99 99 fb ce a0 e8 28-fa fd 87 f2 71 51 80 e4   .......(....qQ..
+00a0 - 95 cb c0 bc 5e 73 67 7a-0b c4 85 ed 52 cc 17 50   ....^sgz....R..P
+00b0 - d5 61 34 92 ab db 70 0a-36 fc ce a3 88 ef 47 5b   .a4...p.6.....G[
+00c0 - d2 7a 48 45 70 57 e9 c3-ef e7 ec fa 12 ed 29 45   .zHEpW........)E
+00d0 - ae e7 73 5f e9 8e db 4e-44 e9 f2 91 8d 4a 0c fe   ..s_...ND....J..
+00e0 - fc 7f 04 13 61 b3 b7 17-a1 a2 b9 f4 38 42 99 0e   ....a.......8B..
+00f0 - 54 bc c7 2c 47 64 cd f9-be 0d                     T..,Gd....
+<<< TLS 1.3, InnerContent [length 0001]
+    16
+<<< TLS 1.3, Handshake [length 00e9], NewSessionTicket
+    04 00 00 e5 00 00 1c 20 e3 88 d4 79 08 00 00 00
+    00 00 00 00 01 00 d0 f2 b4 c4 b1 b8 ff c6 76 b6
+    5b be 1a e6 c8 48 6d 4b c8 8b c9 17 a4 80 99 0e
+    f9 fb e9 1e 3a 99 30 00 45 c4 fd e9 1d 00 3a af
+    71 23 21 ae 80 56 8b 01 a8 96 a7 59 cc 4f e0 6f
+    3d 9e 9c 47 2b 67 f8 7b a7 60 05 73 cf 4a 59 7f
+    76 c2 2c bb 07 1b 6d 88 55 47 98 39 a2 01 73 73
+    70 96 7c ac b6 92 d2 1a 78 a6 26 a7 99 29 32 77
+    2e 22 2f 37 0e cd 47 06 d1 e6 b5 e5 4f c9 3f f6
+    c7 fc f5 28 de 55 cf 92 60 eb 04 bd 73 92 c2 14
+    ca 6d 57 0c ba ce 18 ad d5 1f 4f f7 81 fc 2c de
+    3e 81 b9 ed e9 b3 9b 36 1a ea 8f d3 8e bb 46 59
+    40 45 18 5f b8 a4 38 29 70 5b 0a f6 1e 64 9e 11
+    21 ac 9f 11 d0 04 60 84 33 63 c4 4e 1a 85 d4 fe
+    13 46 1a 78 6c cb b5 00 00

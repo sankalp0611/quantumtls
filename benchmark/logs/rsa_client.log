@@ -1,0 +1,53 @@
+Can't use SSL_get_servername
+depth=0 CN = localhost
+verify error:num=18:self-signed certificate
+verify return:1
+depth=0 CN = localhost
+verify return:1
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN = localhost
+   i:CN = localhost
+   a:PKEY: rsaEncryption, 2048 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Jul  6 12:59:46 2025 GMT; NotAfter: Jul  6 12:59:46 2026 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIC7TCCAdWgAwIBAgIUb3Hx+uu3typ+BslvKGyXxS1eDjIwDQYJKoZIhvcNAQEL
+BQAwFDESMBAGA1UEAwwJbG9jYWxob3N0MB4XDTI1MDcwNjEyNTk0NloXDTI2MDcw
+NjEyNTk0NlowFDESMBAGA1UEAwwJbG9jYWxob3N0MIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEApYt4NxhToKLeWRh1zzVn8BpaOCY652LocMgpTPhisnsg
+ip4NPr/MCMuZty/RP5ZBZ1YJytXxToqwKnPrpYjNE4FZzIm6s2ictG7sn6BF7IAa
+3ih8zifgPdO+4pagYnG3HP2/ETi10XpKm3J7NUwHPRu3SzSmNnyjDOOAhVg4qjN5
+fpfeDE+4PEbZGe/RM7aH+eQnYhzKEB9P53BUIFzsbnY1Jn1vapLxBrxulPlWS5ki
+CJmlplSbc8hMkwFCbDqX0ldyWb/04AY6M6ZrfrbqCp9xfJPN+I0FEgKgRi1zqKgR
+Ij/LI7VK+cZdFTAm3I7uqtqGbdYbbMs3naP+RVV4owIDAQABozcwNTAUBgNVHREE
+DTALgglsb2NhbGhvc3QwHQYDVR0OBBYEFEh3FF6BS/nDPZYHzcscICk+P0ZNMA0G
+CSqGSIb3DQEBCwUAA4IBAQAOJNtsCL2PQGF+cXI790edMmcznVSmrin5z4fH/jJC
+WF9Umy06eWCVgXJOGtlracXRu+6XDJ50opTo4pDoHnlj4+kDo5z/748YXxCEej10
+pNBOJVSH4SBLjbZ3PEqZGb3n4mNAGZBW9ET3UYPWNWT00XpANo1XZgfqArzlqdwW
+tw/aFD5daY6oMrrgiPIacYti2sFNXNlsSBw1acJRjnz+sIrqf0uJnVvVoJc3PJzX
+u57AehukkJynd5+UgiJHnIHHMfH/hAphLUqUxfqrZoBiO7Ty7gIMFLG2VoYjjOjC
+IWFSeuea8pzbRhUhxUVZQN9RGNJ5tjRHckrqrPmdA+6P
+-----END CERTIFICATE-----
+subject=CN = localhost
+issuer=CN = localhost
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 1309 bytes and written 377 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 18 (self-signed certificate)
+---

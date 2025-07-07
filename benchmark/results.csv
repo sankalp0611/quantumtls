@@ -1,0 +1,4 @@
+Mode,CertSize(Bytes),AvgHandshakeTime(ms),CipherSuite
+RSA,1074,0.0,Unknown
+PQC,2394,297.32,Unknown
+Hybrid,3426,287.39,Unknown
